@@ -13,22 +13,22 @@
 }
 
 body {
-  color: #2f2e31 !important;
+  color: #f0e3c0 !important;
   font-family: "Pretendard-Regular";
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #c41d33;
+  background-color: #480016;
 }
 
 a {
-  color: #2f2e31;
+  color: #f03a3a;
 }
 
 #container {
   position: relative;
   width: 100vw;
-  height: 100vh;
+  height: 100dvh;
 }
 
 #top-left {
@@ -42,8 +42,8 @@ a {
   width: calc(100% - 2rem);
 }
 
-p{
-    width: 100%;
+p {
+  width: 100%;
 }
 #top-left p:nth-of-type(2) {
   text-align: right;

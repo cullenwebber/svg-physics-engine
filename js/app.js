@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", () => {
       showBoundingBoxes: false,
     },
     physics: {
-      restitution: 0.5,
+      restitution: 0.65,
       friction: 0,
     },
   });

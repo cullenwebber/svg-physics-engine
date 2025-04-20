@@ -192,7 +192,7 @@ class SVGPhysics {
 
     this.shapeCache.forEach((shape) => {
       const startX = shape.centroid.x + offsetX;
-      const startY = shape.centroid.y + offsetY;
+      const startY = shape.centroid.y + offsetY - p.height;
       const body = Bodies.fromVertices(
         startX,
         startY,
